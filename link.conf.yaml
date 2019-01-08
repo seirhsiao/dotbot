@@ -1,0 +1,46 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+# - clean: ['~']
+
+#- shell:
+#    - mkdir -p ~/.config
+
+- link:
+#    ~/brew_install:       macos/brew_install
+    ~/bin:                home/bin
+    ~/.bash_profile:      home/shell/bash/bash_profile
+    ~/.bash:              home/shell/bash
+    ~/.gitignore_global:  home/git/gitignore_global
+    ~/.gitconfig:         home/git/gitconfig
+    ~/.zshrc:             home/shell/zsh/zshrc
+    ~/.oh-my-zsh:         home/shell/zsh/oh-my-zsh
+    ~/.zplug:             home/shell/zsh/zplug
+    ~/.zshenv:            home/shell/zsh/zshenv
+    ~/.zsh:               home/shell/zsh/zsh.d
+    ~/.zlogin:            home/shell/zsh/zlogin
+    ~/.zlogout:           home/shell/zsh/zlogout
+    ~/.fzh.bash:          home/fzf/fzf.bash
+    ~/.fzh.zsh:           home/fzf/fzf.zsh
+    ~/.config:            home/config
+    ~/.clojure:           home/clojure
+    ~/.lein:              home/lein
+    # ~/.spacemacs:       home/emacs/spacemacs/spacemacs
+    ~/.emacs.d:           home/emacs/emacs.d
+    ~/.spacemacs.d:       home/emacs/spacemacs.d
+    ~/.virmrc:            home/vim/vimrc
+    ~/.vim:               home/vim
+#    ~/.autojump:         home/autojump
+    ~/.gem:               home/gem
+    ~/.npmrc:             home/nodejs/npmrc
+    ~/.npm:               home/npm
+    ~/.eclipse:           home/eclipse
+    ~/.android:           home/android
+    ~/.adobe:             home/adobe
+    ~/.dropbox:           home/dropbox
+    ~/.iterm2:            home/iterm2
+    ~/.iterm2_shell_integration.zsh:  home/iterm2/iterm2_shell_integration.zsh
+    ~/.editorconfig:      home/editorconfig
+    ～/.ShadowsocksX-NG:  home/ShadowsocksX-NG
