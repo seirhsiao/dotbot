@@ -1,5 +1,46 @@
-
-.DS_Store
 ～/.ShadowsocksX-NG
-untitled folder/untitled
-untitled folder/untitled.sh
+untitled folder
+## .gitignore for mac os x
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+## .gitignore for linux
+*~
+
+## .gitignore for eclipse
+.classpath
+.settings/
+.loadpath
+
+## .gitignore for intellij
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+*.pydevproject
+.project
+.metadata
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+*.log
+*.log.*
+/*.zip
+/*.zip.sha1
